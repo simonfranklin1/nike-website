@@ -8,8 +8,6 @@ Página da nike feita com React JS e Tailwind CSS para fixar o aprendizado em Ta
 - JavaScript
 - HTML
 - CSS
-    - Flexbox
-    - Grid
 - Tailwind
 
 ## Screenshot
@@ -18,5 +16,5 @@ Página da nike feita com React JS e Tailwind CSS para fixar o aprendizado em Ta
 
 ## Links
 
-- [Site no ar]()
+- [Site no ar](https://nikeshoes-flame.vercel.app/)
 - [Autor](https://github.com/simonfranklin1)
