@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button } from '../components'
 import { shoe8 } from '../assets/images'
+import { Button } from '../../testComponents'
 
 const SuperQuality = () => {
   return (
@@ -17,8 +17,8 @@ const SuperQuality = () => {
         </p>
         <p className="mt-6 lg:max-w-lg info-text">Our dedication to detail and excellence ensures your satisfaction</p>
         <div className="mt-11 flex flex-wrap gap-4">
-          <Button label={"View details"} />
-          <Button label={"Learn more"} backgroundColor="bg-white" borderColor="border-slate-gray" textColor="text-slate-gray" />
+          <Button children={"View details"} background={"rgb(255 100 82)"} borderRadius={"9999px"} textColor={"#fff"} padding={"1rem 1.75rem"} />
+          <Button children={"Learn more"} background="#fff" border={"1px solid rgb(109 109 109)"} borderRadius={"9999px"} textColor="rgb(109 109 109)" padding={"1rem 1.75rem"} />
         </div>
       </div>
       <div className="flex-1 flex justify-center items-center">
