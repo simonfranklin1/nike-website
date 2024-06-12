@@ -1,6 +1,6 @@
 import React from "react";
 import { shoe8 } from "../assets/images";
-import { Button } from "../../testComponents";
+import { Button } from "../components";
 
 const SuperQuality = () => {
   return (
@@ -24,21 +24,15 @@ const SuperQuality = () => {
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           <Button
-            onClick={() => console.log("View details")}
-            children={"View details"}
-            background={"rgb(255 100 82)"}
-            borderRadius={"9999px"}
-            textColor={"#fff"}
-            padding={"1rem 1.75rem"}
+            label={"View details"}
+            backgroundColor={"bg-coral-red"}
+            textColor={"text-white"}
           />
           <Button
-            onClick={() => console.log("Learn more")}
-            children={"Learn more"}
-            background="#fff"
-            border={"1px solid rgb(109 109 109)"}
-            borderRadius={"9999px"}
-            textColor="rgb(109 109 109)"
-            padding={"1rem 1.75rem"}
+            label={"Learn more"}
+            backgroundColor="bg-white"
+            borderColor={"border-slate-gray"}
+            textColor="text-slate-gray"
           />
         </div>
       </div>
